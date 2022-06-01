@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "945038255973",
+    "firebase_url": "https://sihala-fm-default-rtdb.firebaseio.com",
+    "project_id": "sihala-fm",
+    "storage_bucket": "sihala-fm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945038255973:android:b989e74d6c1fa3b0f6238c",
+        "android_client_info": {
+          "package_name": "lk.sihalafm.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945038255973-qb3mse419nrral2etl07e68qt1enjolv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.sihalafm.app",
+            "certificate_hash": "b2d8cd3f1cf1e9669ddb52764a5ebe949ee66b36"
+          }
+        },
+        {
+          "client_id": "945038255973-b9lfou1invbpu9g7qag205od7id9ogfd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkI1l8XtSjIVxWCgXyxAwmnCk6NhENVDg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945038255973-b9lfou1invbpu9g7qag205od7id9ogfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

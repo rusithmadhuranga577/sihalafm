@@ -1,0 +1,27 @@
+rootProject.name = 'SihalaFM'
+include ':react-native-android-open-settings'
+project(':react-native-android-open-settings').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-android-open-settings/android')
+include ':react-native-reanimated'
+project(':react-native-reanimated').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-reanimated/android')
+include ':react-native-sound-player'
+project(':react-native-sound-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound-player/android')
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+includeBuild('../node_modules/react-native-gradle-plugin')
+include ':react-native-linear-gradient'
+project(':react-native-linear-gradient').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-linear-gradient/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-restart'
+project(':react-native-restart').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-restart/android')
+include ':react-native-music-control'
+project(':react-native-music-control').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-music-control/android')
+include ':react-native-background-actions'
+project(':react-native-background-actions').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-background-actions/android')
+include ':@react-native-async-storage'
+project(':@react-native-async-storage').projectDir = new File(rootProject.projectDir, '../node_modules/@react-native-async-storage/async-storage/android')
+
+if (settings.hasProperty("newArchEnabled") && settings.newArchEnabled == "true") {
+    include(":ReactAndroid")
+    project(":ReactAndroid").projectDir = file('../node_modules/react-native/ReactAndroid')
+}
